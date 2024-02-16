@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+  
+    gap: 50px;
+    background-color: gray;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.container >div{
+    background-color: rgb(216, 216, 216);
+
+}
+
+.cajita{
+    width: 100px;
+    height: 100px;
+}
+
+.Solid{border: 2px solid black;}
+.Dotted{border: 2px dotted black;}
+.Dashed{border: 2px dashed black;}
+.Double{border: 5px double black;}
+.Groove{border: 15px groove black;}
+.Ridge{border: 15px ridge black;}
+.Inset{border: 5px inset black;}
+.Outset{border: 5px outset black;}
